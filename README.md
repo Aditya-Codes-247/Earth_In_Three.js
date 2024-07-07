@@ -15,7 +15,7 @@ You can view the live demo of the project [here](https://your-vercel-project-url
 
 ## Screenshots
 
-![Earth Model](path/to/your/screenshot.png)
+![Earth Model](https://github.com/Aditya-Codes-247/Earth_In_Three.js/blob/main/Model.png)
 
 ## Getting Started
 
