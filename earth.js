@@ -20,9 +20,9 @@ const detail = 12;
 const Loader = new THREE.TextureLoader();
 const geo = new THREE.IcosahedronGeometry(1, detail);
 const material = new THREE.MeshPhongMaterial({
-  map: Loader.load("earth.jpg"),
-  specularMap: Loader.load("earth_spec.jpg"),
-  bumpMap: Loader.load("earth_bump.jpg"),
+  map: Loader.load("./earth.jpg"),
+  specularMap: Loader.load("./earth_spec.jpg"),
+  bumpMap: Loader.load("./earth_bump.jpg"),
   bumpScale: 0.04,
 });
 material.map.colorSpace = THREE.SRGBColorSpace;
@@ -31,7 +31,7 @@ earthGroup.add(earthMesh);
 
 
 const lightsMat = new THREE.MeshBasicMaterial({
-map: Loader.load("earth_lights.jpg"),
+map: Loader.load("./earth_lights.jpg"),
 blending: THREE.AdditiveBlending,
 });
 const lightsMesh = new THREE.Mesh(geo, lightsMat);
@@ -39,11 +39,11 @@ earthGroup.add(lightsMesh);
 
 
 const cloudsMat = new THREE.MeshStandardMaterial({
-map: Loader.load("earth_clouds.jpg"),
+map: Loader.load("./earth_clouds.jpg"),
 transparent: true,
 opacity: 0.8,
 blending: THREE.AdditiveBlending,
-alphaMap: Loader.load('earth_clouds_trans.jpg'),
+alphaMap: Loader.load('./earth_clouds_trans.jpg'),
 });
 const cloudsMesh = new THREE.Mesh(geo, cloudsMat);
 cloudsMesh.scale.setScalar(1.003);
