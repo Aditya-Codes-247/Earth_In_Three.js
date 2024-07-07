@@ -28,4 +28,4 @@ You can view the live demo of the project [here](https://your-vercel-project-url
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/three-js-earth-project.git
+   git clone https://github.com/Aditya-Codes-247/Earth_In_Three.js.git
