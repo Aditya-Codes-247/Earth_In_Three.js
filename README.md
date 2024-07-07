@@ -11,7 +11,7 @@ Welcome to the Three.js Earth Project! This project demonstrates how to create a
 
 ## Demo
 
-You can view the live demo of the project [here](https://your-vercel-project-url.vercel.app).
+You can view the live demo of the project [here](https://earth-threejs-five.vercel.app/).
 
 ## Screenshots
 
